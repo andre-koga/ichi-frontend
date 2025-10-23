@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-// @ts-expect-error: no type declarations for side-effect CSS import
 import "./globals.css";
 
 const defaultUrl = process.env.VERCEL_URL
